@@ -13,16 +13,14 @@ const Emergency = () => {
           <p>Las 24 horas, los 365 días del año.</p>
         </div>
         <div>
-          <div>
-            <div className="urgencyservices">
-              <strong>GBA y CABA</strong>
-              (011) 3754-7777
-            </div>
-            <div className="urgencyservices">
-              <strong>La Plata</strong>
-              (0221) 453-1419<br />
-              (0221) 451-3145
-            </div>
+          <div className="urgencyservices">
+            <strong>GBA y CABA</strong>
+            (011) 3754-7777
+          </div>
+          <div className="urgencyservices">
+            <strong>La Plata</strong>
+            (0221) 453-1419<br />
+            (0221) 451-3145
           </div>
         </div>
       </div>

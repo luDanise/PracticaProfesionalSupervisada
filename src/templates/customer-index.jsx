@@ -47,7 +47,7 @@ const CustomerIndex = () => {
         </div>
       </nav>
 
-      <div className="container">
+      <div className="containerci">
         {customerData && (
           <div className="user-info-box">
             <h3>Información Personal</h3>

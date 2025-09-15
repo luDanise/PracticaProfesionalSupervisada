@@ -71,23 +71,23 @@ const CustomerLogin = () => {
             <h2>Iniciar Sesión</h2>
             <form onSubmit={handleLogin}>
               <div className="form">
-                <label htmlFor="email" className="label">Correo Electrónico</label>
+                <label htmlFor="email" className="labelli">Correo Electrónico</label>
                 <input
                   type="email"
                   placeholder="Correo Electrónico..."
-                  className="formfield"
+                  className="formfieldli"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
               </div>
               <div className="form password-wrapper">
-                <label htmlFor="password" className="label">Contraseña</label>
+                <label htmlFor="password" className="labelli">Contraseña</label>
                 <div className="password-field">
                   <input
                     type={showPassword ? 'text' : 'password'}
                     placeholder="Contraseña..."
-                    className="formfield"
+                    className="formfieldli"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required

@@ -68,23 +68,23 @@ const SellerLogin = () => {
             <h2>Iniciar Sesión como Vendedor</h2>
             <form onSubmit={handleLogin}>
               <div className="form">
-                <label htmlFor="user" className="label">Usuario</label>
+                <label htmlFor="user" className="labelli">Usuario</label>
                 <input
                   type="text"
                   placeholder="Usuario..."
-                  className="formfield"
+                  className="formfieldli"
                   value={user}
                   onChange={(e) => setUser(e.target.value)}
                   required
                 />
               </div>
               <div className="form password-wrapper">
-                <label htmlFor="password" className="label">Contraseña</label>
+                <label htmlFor="password" className="labelli">Contraseña</label>
                 <div className="password-field">
                   <input
                     type={showPassword ? 'text' : 'password'}
                     placeholder="Contraseña..."
-                    className="formfield"
+                    className="formfieldli"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
